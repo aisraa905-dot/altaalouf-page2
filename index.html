@@ -3,33 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>جمعية التآلف</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Tahoma, Arial;
       text-align: center;
-      padding-top: 40px;
+      padding: 20px;
       background: linear-gradient(135deg, #f5f7fa, #e4ecf5);
     }
     h2 {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
       color: #333;
+      font-size: 28px;
     }
     .btn {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
       margin: 15px auto;
-      padding: 16px 20px;
-      width: 90%;
-      max-width: 360px;
+      padding: 30px 35px;
+      width: 100%;
+      max-width: 500px;
       background: #1e88e5;
       color: white;
       text-decoration: none;
-      border-radius: 14px;
-      font-size: 18px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      border-radius: 20px;
+      font-size: 26px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
       transition: 0.2s;
     }
     .btn:hover {
       transform: scale(1.03);
+    }
+    .btn span.icon {
+      font-size: 36px;
+      margin-right: 20px;
     }
     .site { background: #1976d2; }
     .map { background: #2e7d32; }
@@ -42,19 +50,19 @@
   <h2>روابط جمعية التآلف</h2>
 
   <a class="btn site" href="http://altaalouf.org/new.html">
-    🌐 الموقع الالكتروني لجمعية التآلف
+    <span class="icon">🌐</span> الموقع الالكتروني لجمعية التآلف
   </a>
 
   <a class="btn map" href="https://maps.app.goo.gl/UBNYrpL2M9XPYntL6">
-    📍 عنوان مول التآلف للتسوق
+    <span class="icon">📍</span> عنوان مول التآلف للتسوق
   </a>
 
   <a class="btn call" href="tel:0930033034">
-    📞 للاستفسار والشكاوي
+    <span class="icon">📞</span> للاستفسار والشكاوي
   </a>
 
   <a class="btn whatsapp" href="tel:0930099064">
-    💬 تواصل معنا
+    <span class="icon">💬</span> تواصل معنا
   </a>
 
 </body>
